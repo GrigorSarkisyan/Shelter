@@ -1,0 +1,260 @@
+@import url('../main/reset.css');
+
+@font-face {
+    font-family: 'Arial-Italic';
+    src: url('../../assets/fonts/Arial-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Arial-Regular';
+    src: url('../../assets/fonts/Arial-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Georgia-Regular';
+    src: url('../../assets/fonts/Georgia-Regular.ttf') format('truetype');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Georgia-Regular';
+    margin: 0 auto;
+    background: #fff;
+    overflow-x: hidden;
+    max-width: 1280px;
+}
+
+.header__container {
+    display: flex;
+    height: 60px;
+    padding: 60px 40px;
+}
+
+.logo {
+    width: 184px;
+    height: 60px;
+}
+
+.logo__title {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    color: #292929; 
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+}
+
+.logo__subtitle {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #292929;
+    margin-top: 1px;
+}
+
+.menu {
+    margin-left: auto;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+    width: 443px;
+    padding-bottom: 5px;
+}
+
+.menu__link {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #292929;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: #F1CDB3;
+}
+
+.active {
+    color: #F1CDB3;
+}
+
+.pets__container {
+    background-color: #F6F6F6;
+}
+
+.title {
+    font-size: 35px;
+    color: #545454;
+    line-height: 45.5px;
+    padding-bottom: 58px;
+    padding-top: 80px;
+    text-align: center;
+    letter-spacing: 2.1px;
+    margin-top: -26px;
+}
+
+.pets__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 70px;
+}
+
+.card {
+    height: 435px;
+    width: 270px;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card:hover {
+    background-color: #fff;
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.1);
+    cursor: pointer;
+}
+
+.img__card {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.pets__name {
+    font-size: 20px;
+    letter-spacing: 1.3px;
+    padding: 30px 0;
+    color: #545454;
+}
+
+.btn__secondary {
+    width: 187px;
+    height: 52px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    border: 2px solid #F1CDB3;
+    border-radius: 30px;
+    color: #292929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.btn__secondary:hover {
+    background-color: #FDDCC4;
+    border: none;
+    cursor: pointer;
+}
+
+.pets__navigation {
+    width: 340px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    margin: -25px auto;
+    gap: 20px;
+    padding-bottom: 77px;
+}
+
+.slider {
+    border: 2px solid #F1CDB3;
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    background-color: #FDDCC4;
+    border: none;
+}
+
+.slider:hover {
+    background-color: #FDDCC4;
+    border: none;
+}
+
+.footer {
+    background: url('../../assets/images/gradient.png'), radial-gradient(60% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+}
+
+.footer__container {
+    display: flex;
+    padding: 40px 40px 0 40px;
+}
+
+.contacts {
+    width: 278px;
+    margin-right: 160px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__title {
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 2.08px;
+    color: #fff;
+    padding-top: 17px;
+}
+
+.contacts__item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 32px;
+}
+
+.contact {
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    color: #F1CDB3;
+}
+
+.location {
+    width: 302px;
+    margin-right: 160px;
+}
+
+.location__item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 32px;
+}
+
+.img__footer-puppy {
+    width: 300px;   
+    height: 310px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
