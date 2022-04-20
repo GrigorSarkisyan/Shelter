@@ -27,8 +27,6 @@ html {
     max-width: 1280px;
 }
 
-/* header start */
-
 .header {
     margin: 0 auto;
     background-color: #fff;
@@ -124,8 +122,6 @@ html {
     display: none;
     cursor: pointer;
 }
-
-/* pets start */
 
 .pets__container {
     background-color: #F6F6F6;
@@ -229,8 +225,6 @@ html {
     background-color: #FDDCC4;
     border: none;
 }
-
-/* modal start */
 
 .modal {
     width: 100%;
@@ -343,8 +337,6 @@ html {
 .strong {
     font-family: 'Georgia-Bold';
 }
-
-/* footer start */
 
 .footer {
     background: url('../../assets/images/gradient.png'), radial-gradient(60% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
