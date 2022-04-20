@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shelter our pets</title>
+    <link rel="shortcut icon" href="../../assets/puppy.ico">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body class="body">
@@ -15,13 +16,20 @@
                 <div class="logo__subtitle">Shelter for pets in Boston</div>
             </div>
             <nav class="menu">
+                <div class="burger__logo">
+                    <h1 class="logo__title">Cozy House</h1>
+                    <div class="logo__subtitle">Shelter for pets in Boston</div>
+                </div>
                 <ul class="menu__list">
-                    <li class="menu__item"><a class="menu__link" href="../main/index.html">About the shelter</a></li>
-                    <li class="menu__item"><a class="menu__link active" href="#">Our pets</a></li>
-                    <li class="menu__item"><a class="menu__link" href="../main/index.html#help">Help the shelter</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#footer">Contacts</a></li>
+                    <li><a class="menu__item transition-new-page" href="#">About the shelter</a></li>
+                    <li><a class="menu__item active" href="#">Our pets</a></li>
+                    <li><a class="menu__item style__none" href="../main/index.html#help">Help the shelter</a></li>
+                    <li><a class="menu__item style__none" href="#footer">Contacts</a></li>
                 </ul>
             </nav>
+            <div class="burger">
+                <span class="burger__line"></span>
+            </div>
         </div>
     </header>
     <main class="pets__container">
@@ -76,16 +84,39 @@
             <div class="slider">>></div>
 
         </div>
+        <div class="modal">
+            <div class="overlay">
+                <div class="modal__window">
+                    <div class="btn__position">
+                        <div class="btn__close"><img src="../../assets/icons/close-btn.svg" alt=""></div>
+                    </div>
+                    <div class="modal__content">
+                        <img class="img__modal" src="../../assets/images/pets-jennifer.png" alt="jennifer">
+                        <div class="modal__content-text">
+                            <h3 class="modal__title">Jennifer</h3>
+                            <h4 class="modal__subtitle">Dog - Labrador</h4>
+                            <h5 class="modal__description">Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.</h5>
+                            <div class="pets__attribute">
+                                <p><span class="strong">Age: </span>2 months</p>
+                                <p><span class="strong">Inoculations: </span>none</p>
+                                <p><span class="strong">Diseases: </span>none</p>
+                                <p><span class="strong">Parasites: </span>none</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer id="footer" class="footer">
         <div class="footer__container">
             <div class="contacts">
                 <h3 class="footer__title">For questions and suggestions</h3>
                 <div class="contacts__item">
-                    <a href="sgs0111991@gmail.com">
+                    <a href="mailto:sgs01111991@gmail.com">
                         <img src="../../assets/icons/icon-email.svg" alt="email">
                     </a>
-                    <a href="sgs0111991@gmail.com">
+                    <a href="mailto:sgs01111991@gmail.com">
                         <h4 class="contact">email@shelter.com</h4>
                     </a>
                 </div>
@@ -116,6 +147,6 @@
             <img class="img__footer-puppy" src="../../assets/images/footer-puppy.png" alt="footer-puppy">
         </div>
     </footer>
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
 </body>
 </html>
