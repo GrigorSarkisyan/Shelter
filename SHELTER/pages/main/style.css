@@ -41,8 +41,6 @@ body {
     background: url('../../assets/images/gradient.png'), radial-gradient(60% 230.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
 }
 
-/* header start */
-
 .header__container {
     display: flex;
     height: 60px;
@@ -135,9 +133,6 @@ body {
     transform: scale(1); 
 }
 
-
-/* main__page start */
-
 .main__page {
     display: flex;
     justify-content: space-between;
@@ -198,8 +193,6 @@ body {
     cursor: pointer;
 }
 
-/* about start */
-
 .wrapper {
     padding: 80px 40px 100px 40px;
 }
@@ -250,8 +243,6 @@ body {
     padding-bottom: 25px;
     color: #4C4C4C;
 }
-
-/* pets start */
 
 .pets {
     background-color: #F6F6F6;
@@ -348,8 +339,6 @@ body {
     justify-content: center;
 }
 
-/* help start */
-
 .help {
     background-color: #fff;
     min-height: 611px;
@@ -386,8 +375,6 @@ body {
     letter-spacing: 1.1px;
     color: #545454;
 }
-
-/* modal start */
 
 .modal {
     width: 100%;
@@ -501,8 +488,6 @@ body {
     font-family: 'Georgia-Bold';
 }
 
-/* donation start */
-
 .donation {
     min-height: 461.5px;
     background-color: #F6F6F6;
@@ -565,8 +550,6 @@ body {
     line-height: 18px;
     color: #B2B2B2;
 }
-
-/* footer start */
 
 .footer {
     background: url('../../assets/images/gradient.png'), radial-gradient(60% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
